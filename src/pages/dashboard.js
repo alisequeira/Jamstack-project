@@ -23,7 +23,7 @@ const Dashboard = ({ location }) => {
 
   return (
     <Layout>
-      <Profile showModal={showModal} />
+      {/* <Profile showModal={showModal} />
       <Router>
         <PrivateRoute path="/dashboard/base" component={RouteBase} />
         <PrivateRoute path="/dashboard/secret" component={RouteSecret} />
@@ -32,7 +32,8 @@ const Dashboard = ({ location }) => {
       <IdentityModal
         showDialog={isVisible}
         onCloseDialog={() => setVisibility(false)}
-      />
+      /> */}
+      <h1>hola</h1>
     </Layout>
   );
 };
